@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		553456F63521E402EE0FC4E5 /* libPods-DesignPatternsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E1E018E78D0FC3530939FB4 /* libPods-DesignPatternsTests.a */; };
 		B9C2FE13C2F60B65BD5C0C51 /* libPods-DesignPatterns.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1C9D8E48A4B878655F16D1 /* libPods-DesignPatterns.a */; };
+		BE20484F21546E090066CC62 /* StrokeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BE20484E21546E090066CC62 /* StrokeSpec.m */; };
+		BE20485221546EED0066CC62 /* Prototype.m in Sources */ = {isa = PBXBuildFile; fileRef = BE20485121546EED0066CC62 /* Prototype.m */; };
+		BE20485321546EED0066CC62 /* Prototype.m in Sources */ = {isa = PBXBuildFile; fileRef = BE20485121546EED0066CC62 /* Prototype.m */; };
 		BEE0F1CF2154577C007E9FBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE0F1CE2154577C007E9FBB /* AppDelegate.m */; };
 		BEE0F1D22154577C007E9FBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE0F1D12154577C007E9FBB /* ViewController.m */; };
 		BEE0F1D52154577C007E9FBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE0F1D32154577C007E9FBB /* Main.storyboard */; };
@@ -16,7 +19,6 @@
 		BEE0F1DA2154577E007E9FBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BEE0F1D92154577E007E9FBB /* Assets.xcassets */; };
 		BEE0F1DD2154577E007E9FBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE0F1DB2154577E007E9FBB /* LaunchScreen.storyboard */; };
 		BEE0F1E02154577E007E9FBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE0F1DF2154577E007E9FBB /* main.m */; };
-		BEE0F1EA2154577E007E9FBB /* DesignPatternsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE0F1E92154577E007E9FBB /* DesignPatternsTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 		3917D665F06176565305E110 /* Pods-DesignPatternsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPatternsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DesignPatternsTests/Pods-DesignPatternsTests.release.xcconfig"; sourceTree = "<group>"; };
 		4E1C9D8E48A4B878655F16D1 /* libPods-DesignPatterns.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DesignPatterns.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94CF75780638D747EF3B7B99 /* Pods-DesignPatternsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPatternsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DesignPatternsTests/Pods-DesignPatternsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE20484E21546E090066CC62 /* StrokeSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrokeSpec.m; sourceTree = "<group>"; };
+		BE20485021546EED0066CC62 /* Prototype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prototype.h; sourceTree = "<group>"; };
+		BE20485121546EED0066CC62 /* Prototype.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prototype.m; sourceTree = "<group>"; };
 		BEE0F1CA2154577C007E9FBB /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE0F1CD2154577C007E9FBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BEE0F1CE2154577C007E9FBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -47,7 +52,6 @@
 		BEE0F1DE2154577E007E9FBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BEE0F1DF2154577E007E9FBB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BEE0F1E52154577E007E9FBB /* DesignPatternsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DesignPatternsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BEE0F1E92154577E007E9FBB /* DesignPatternsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DesignPatternsTests.m; sourceTree = "<group>"; };
 		BEE0F1EB2154577E007E9FBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F5722201F02167F87F462DEC /* Pods-DesignPatterns.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DesignPatterns.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DesignPatterns/Pods-DesignPatterns.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +99,7 @@
 		BEE0F1CC2154577C007E9FBB /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				BEE0F1F421545FE4007E9FBB /* Prototype */,
 				BEE0F1CD2154577C007E9FBB /* AppDelegate.h */,
 				BEE0F1CE2154577C007E9FBB /* AppDelegate.m */,
 				BEE0F1D02154577C007E9FBB /* ViewController.h */,
@@ -112,10 +117,19 @@
 		BEE0F1E82154577E007E9FBB /* DesignPatternsTests */ = {
 			isa = PBXGroup;
 			children = (
-				BEE0F1E92154577E007E9FBB /* DesignPatternsTests.m */,
 				BEE0F1EB2154577E007E9FBB /* Info.plist */,
+				BE20484E21546E090066CC62 /* StrokeSpec.m */,
 			);
 			path = DesignPatternsTests;
+			sourceTree = "<group>";
+		};
+		BEE0F1F421545FE4007E9FBB /* Prototype */ = {
+			isa = PBXGroup;
+			children = (
+				BE20485021546EED0066CC62 /* Prototype.h */,
+				BE20485121546EED0066CC62 /* Prototype.m */,
+			);
+			path = Prototype;
 			sourceTree = "<group>";
 		};
 		EC2E3A338877E098D9BFBEBF /* Frameworks */ = {
@@ -279,6 +293,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE20485221546EED0066CC62 /* Prototype.m in Sources */,
 				BEE0F1D22154577C007E9FBB /* ViewController.m in Sources */,
 				BEE0F1D82154577C007E9FBB /* DesignPatterns.xcdatamodeld in Sources */,
 				BEE0F1E02154577E007E9FBB /* main.m in Sources */,
@@ -290,7 +305,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BEE0F1EA2154577E007E9FBB /* DesignPatternsTests.m in Sources */,
+				BE20485321546EED0066CC62 /* Prototype.m in Sources */,
+				BE20484F21546E090066CC62 /* StrokeSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
