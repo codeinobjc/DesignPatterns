@@ -12,6 +12,8 @@
 		BE20484F21546E090066CC62 /* StrokeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BE20484E21546E090066CC62 /* StrokeSpec.m */; };
 		BE20485221546EED0066CC62 /* Prototype.m in Sources */ = {isa = PBXBuildFile; fileRef = BE20485121546EED0066CC62 /* Prototype.m */; };
 		BE20485321546EED0066CC62 /* Prototype.m in Sources */ = {isa = PBXBuildFile; fileRef = BE20485121546EED0066CC62 /* Prototype.m */; };
+		BE5798AF21598451001DADCD /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5798AE21598451001DADCD /* Singleton.m */; };
+		BE5798B121598CF8001DADCD /* SingletonSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = BE5798B021598CF8001DADCD /* SingletonSpec.m */; };
 		BEE0F1CF2154577C007E9FBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE0F1CE2154577C007E9FBB /* AppDelegate.m */; };
 		BEE0F1D22154577C007E9FBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BEE0F1D12154577C007E9FBB /* ViewController.m */; };
 		BEE0F1D52154577C007E9FBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BEE0F1D32154577C007E9FBB /* Main.storyboard */; };
@@ -40,6 +42,9 @@
 		BE20484E21546E090066CC62 /* StrokeSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrokeSpec.m; sourceTree = "<group>"; };
 		BE20485021546EED0066CC62 /* Prototype.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prototype.h; sourceTree = "<group>"; };
 		BE20485121546EED0066CC62 /* Prototype.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Prototype.m; sourceTree = "<group>"; };
+		BE5798AD21598451001DADCD /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		BE5798AE21598451001DADCD /* Singleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
+		BE5798B021598CF8001DADCD /* SingletonSpec.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonSpec.m; sourceTree = "<group>"; };
 		BEE0F1CA2154577C007E9FBB /* DesignPatterns.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignPatterns.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEE0F1CD2154577C007E9FBB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BEE0F1CE2154577C007E9FBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -76,6 +81,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE5798AC21598424001DADCD /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				BE5798AD21598451001DADCD /* Singleton.h */,
+				BE5798AE21598451001DADCD /* Singleton.m */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
 		BEE0F1C12154577C007E9FBB = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +113,7 @@
 		BEE0F1CC2154577C007E9FBB /* DesignPatterns */ = {
 			isa = PBXGroup;
 			children = (
+				BE5798AC21598424001DADCD /* Singleton */,
 				BEE0F1F421545FE4007E9FBB /* Prototype */,
 				BEE0F1CD2154577C007E9FBB /* AppDelegate.h */,
 				BEE0F1CE2154577C007E9FBB /* AppDelegate.m */,
@@ -119,6 +134,7 @@
 			children = (
 				BEE0F1EB2154577E007E9FBB /* Info.plist */,
 				BE20484E21546E090066CC62 /* StrokeSpec.m */,
+				BE5798B021598CF8001DADCD /* SingletonSpec.m */,
 			);
 			path = DesignPatternsTests;
 			sourceTree = "<group>";
@@ -296,6 +312,7 @@
 				BE20485221546EED0066CC62 /* Prototype.m in Sources */,
 				BEE0F1D22154577C007E9FBB /* ViewController.m in Sources */,
 				BEE0F1D82154577C007E9FBB /* DesignPatterns.xcdatamodeld in Sources */,
+				BE5798AF21598451001DADCD /* Singleton.m in Sources */,
 				BEE0F1E02154577E007E9FBB /* main.m in Sources */,
 				BEE0F1CF2154577C007E9FBB /* AppDelegate.m in Sources */,
 			);
@@ -306,6 +323,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE20485321546EED0066CC62 /* Prototype.m in Sources */,
+				BE5798B121598CF8001DADCD /* SingletonSpec.m in Sources */,
 				BE20484F21546E090066CC62 /* StrokeSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
