@@ -21,8 +21,8 @@ Design Patterns in Cocoa, implemented using Objective-C
 1. Multiple concrete factories are needed or extended later.
 3. Each concrete factory extends factory method
 ## Creational Pattern -- Builder
-1.Seperate creational process and object representation
-2.Director has a reference to Builder protocol.
-3.Director orchestrates with provided concrete builder, which has the end-product.
-4.Director returns end-product after orchestration.
-5.Concrete builder switched to return different end-product.
+1. Seperate creational process and object representation.
+2. Director has a reference to Builder protocol.
+3. Director orchestrates with provided concrete builder, which builds the end-product.
+4. Director returns end-product after orchestration.
+5. Director instantiated with different builder to get a different product.
